@@ -4,6 +4,11 @@
 *[原理](theory)
    *[filestore原理](theory/filestore.md)
    *[bluestore原理](theory/bluestore.md)
+*[硬件](hardware)
+   *[推荐配置](hardware/default.md)
+   *[cpu](hardware/cpu.md)
+   *[内存](hardware/memory.md)
+   *[网卡](hardware/NIC.md)
 *[部署](deploy)
    *[分区]
    *[mon部署]
@@ -23,3 +28,6 @@
    *[性能测试]
       *[吞吐量] 
       *[IOPS]
+*[运维](operation)
+   *[常用命令]
+   *[常用脚本]
