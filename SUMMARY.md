@@ -1,33 +1,42 @@
 # Summary
-*[前言](README.md)
-*[修订](revision.md)
-*[原理](theory)
-   *[filestore原理](theory/filestore.md)
-   *[bluestore原理](theory/bluestore.md)
-*[硬件](hardware)
-   *[推荐配置](hardware/default.md)
-   *[cpu](hardware/cpu.md)
-   *[内存](hardware/memory.md)
-   *[网卡](hardware/NIC.md)
-*[部署](deploy)
-   *[分区]
-   *[mon部署]
-   *[osd部署]
-*[块存储](rbd)
-   *[块存储本质]
-   *[块存储接口]
-   *[快照]
-   *[克隆]
-   *[rbd与openstack]
-*[对象存储](object)
-*[文件系统](fs)
-*[监控](monitor)
-   *[集群监控]
-   *[主机监控]
-*[测试](test)
-   *[性能测试]
-      *[吞吐量] 
-      *[IOPS]
-*[运维](operation)
-   *[常用命令]
-   *[常用脚本]
+
+* [前言](README.md)
+* [修订](revision.md)
+* [原理](theory)
+	* [filestore原理](theory/filestore.md)
+	* [bluestore原理](theory/bluestore.md)
+* [硬件](hardware)
+	* [推荐配置](hardware/default.md)
+	* [cpu](hardware/cpu.md)
+	* [内存](hardware/memory.md)
+	* [网卡](hardware/NIC.md)
+* [部署](deploy)
+	* [分区](deploy/part.md)
+	* [mon部署](deploy/mon.md)
+	* [osd部署](deploy/osd.md)
+* [块存储](rbd)
+	* [块存储本质](rbd/detail.md)
+	* [块存储接口](rbd/interface.md)
+	* [快照](rbd/snapshot.md)
+	* [克隆](rbd/clone.md)
+	* [rbd与openstack](rbd/openstack.md)
+* [对象存储](object)
+* [文件系统](fs)
+* [监控](monitor)
+	* [集群监控](monitor/cluster)
+		* [mon](monitor/cluster/mon.md)
+		* [osd](monitor/cluster/osd.md)
+		* [pg](monitor/cluster/pg.md)
+		* [容量](monitor/cluster/capacity.md)
+		* [读写速率](monitor/cluster/rate.md)
+	* [主机监控](monitor/host)
+		* [cpu](monitor/host/cpu.md)
+		* [内存](monitor/host/memory.md)
+		* [iops](monitor/host/iops.md)
+		* [流量](monitor/host/flow.md)
+* [测试](test)
+    * [吞吐量](test/throughput.md)
+    * [IOPS](test/iops.md)
+* [运维](operation)
+	* [常用命令](operation/commands.md)
+	* [常用脚本](operation/scripts.md)
